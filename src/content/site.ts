@@ -1,7 +1,7 @@
 /**
  * Central site content/config for Aida Logistics.
- * Contact details sourced from aidalogistics.com (2026-07-18).
- * TODO: fill in real USDOT / MC numbers below before launch.
+ * Contact details sourced from aidalogistics.com; USDOT/MC verified
+ * against FMCSA SAFER (snapshot as of 2026-07-16).
  */
 export const site = {
   name: "Aida Logistics",
@@ -21,8 +21,8 @@ export const site = {
     country: "United States",
   },
   founded: "Interstate carrier",
-  usdot: "USDOT # —", // TODO: add real USDOT number
-  mc: "MC # —", // TODO: add real MC number
+  usdot: "USDOT 4187601",
+  mc: "MC-1613295",
   certifications: [
     {
       key: "iso9001",
