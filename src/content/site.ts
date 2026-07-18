@@ -1,27 +1,28 @@
 /**
  * Central site content/config for Aida Logistics.
- *
- * PLACEHOLDERS: phone, email, address, DOT/MC numbers below are placeholders —
- * replace with the real company details before pointing the production domain here.
+ * Contact details sourced from aidalogistics.com (2026-07-18).
+ * TODO: fill in real USDOT / MC numbers below before launch.
  */
 export const site = {
   name: "Aida Logistics",
-  legalName: "Aida Logistics, Inc.",
+  legalName: "Aida Logistics LLC.",
   tagline: "Certified interstate freight, engineered for reliability",
   description:
     "Aida Logistics is an ISO 9001 and GDP certified, bonded interstate trucking company moving FTL, temperature-controlled, and high-compliance freight across the United States.",
-  url: "https://aida-logistics.vercel.app", // swap to production domain at launch
-  phone: "(000) 000-0000", // PLACEHOLDER
-  phoneHref: "tel:+10000000000", // PLACEHOLDER
-  email: "dispatch@aidalogistics.example", // PLACEHOLDER
+  url: "https://aidalogistics.com",
+  phone: "(708) 980-3183",
+  phoneHref: "tel:+17089803183",
+  email: "info@aidalogistics.com",
   address: {
-    city: "Chicago metro", // PLACEHOLDER
+    street: "2415 Birch St",
+    city: "Des Plaines",
     region: "IL",
+    zip: "60018",
     country: "United States",
   },
   founded: "Interstate carrier",
-  usdot: "USDOT # —", // PLACEHOLDER — add real USDOT number
-  mc: "MC # —", // PLACEHOLDER — add real MC number
+  usdot: "USDOT # —", // TODO: add real USDOT number
+  mc: "MC # —", // TODO: add real MC number
   certifications: [
     {
       key: "iso9001",

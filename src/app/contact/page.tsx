@@ -41,7 +41,9 @@ export default function ContactPage() {
               <div>
                 <dt className="text-xs font-semibold uppercase tracking-widest text-ink-dim">Location</dt>
                 <dd className="mt-1.5 text-ink-dim">
-                  {site.address.city}, {site.address.region}
+                  {site.address.street}
+                  <br />
+                  {site.address.city}, {site.address.region} {site.address.zip}
                   <br />
                   {site.address.country}
                 </dd>

@@ -60,7 +60,7 @@ export function Footer() {
               </a>
             </li>
             <li>
-              {site.address.city}, {site.address.region}
+              {site.address.street}, {site.address.city}, {site.address.region} {site.address.zip}
             </li>
             <li className="pt-2 text-xs text-ink-faint">
               {site.usdot} · {site.mc}
