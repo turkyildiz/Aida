@@ -15,12 +15,12 @@ export function BrandLogo({ className = "h-9 w-auto" }: { className?: string }) 
 export function BrandMark({ className = "h-8 w-8" }: { className?: string }) {
   return (
     <img
-      src="/brand/aida-icon.png"
+      src="/brand/aida-mark.svg"
       alt=""
       aria-hidden="true"
       className={className}
-      width={270}
-      height={270}
+      width={80}
+      height={80}
     />
   );
 }
