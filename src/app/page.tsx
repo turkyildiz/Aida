@@ -84,7 +84,7 @@ export default function HomePage() {
               {site.certifications.map((c) => (
                 <span
                   key={c.key}
-                  className="rounded-full border border-[var(--line-strong)] bg-surface px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-widest text-accent-bright"
+                  className="rounded-full border border-[var(--line-strong)] bg-surface px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-widest text-accent-deep"
                 >
                   {c.short}
                 </span>
@@ -166,7 +166,7 @@ export default function HomePage() {
             ["100%", "Audit-ready records"],
           ].map(([value, label]) => (
             <div key={label}>
-              <div className="text-4xl font-bold tracking-tight text-accent-bright">{value}</div>
+              <div className="text-4xl font-bold tracking-tight text-accent-deep">{value}</div>
               <div className="mt-2 text-xs font-semibold uppercase tracking-widest text-ink-dim">
                 {label}
               </div>
@@ -217,7 +217,7 @@ export default function HomePage() {
                 >
                   {s.icon}
                 </svg>
-                <h3 className="mt-5 text-xl font-bold tracking-tight group-hover:text-accent-bright">
+                <h3 className="mt-5 text-xl font-bold tracking-tight group-hover:text-accent-deep">
                   {s.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-ink-dim">{s.body}</p>

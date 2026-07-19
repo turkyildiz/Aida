@@ -56,7 +56,7 @@ export default function ServicesPage() {
               <div>
                 <div className="flex items-center gap-3">
                   <h2 className="text-2xl font-bold tracking-tight">{s.title}</h2>
-                  <span className="rounded-full border border-[var(--line-strong)] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-accent-bright">
+                  <span className="rounded-full border border-[var(--line-strong)] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-accent-deep">
                     {s.tag}
                   </span>
                 </div>

@@ -59,7 +59,7 @@ export default function CompliancePage() {
           {detail.map((d) => (
             <article key={d.short} className="card reveal p-8 md:p-10">
               <div className="flex flex-wrap items-center gap-4">
-                <span className="rounded-xl border border-[var(--line-strong)] bg-surface px-4 py-2 font-mono text-sm font-bold text-accent-bright">
+                <span className="rounded-xl border border-[var(--line-strong)] bg-surface px-4 py-2 font-mono text-sm font-bold text-accent-deep">
                   {d.short}
                 </span>
                 <h2 className="text-xl font-bold tracking-tight sm:text-2xl">{d.name}</h2>
