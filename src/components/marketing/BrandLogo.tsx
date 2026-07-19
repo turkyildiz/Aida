@@ -2,11 +2,11 @@
 export function BrandLogo({ className = "h-9 w-auto" }: { className?: string }) {
   return (
     <img
-      src="/brand/aida-logo.png"
+      src="/brand/aida-logo-full.svg"
       alt="Aida Logistics"
       className={className}
-      width={170}
-      height={42}
+      width={215}
+      height={76}
     />
   );
 }
