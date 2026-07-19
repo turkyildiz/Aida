@@ -11,14 +11,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--line)] bg-[color-mix(in_oklab,var(--bg)_82%,transparent)] backdrop-blur-xl">
       <div className="container-max section-pad flex h-16 items-center justify-between gap-6">
-        <Link href="/" className="flex items-center gap-3" aria-label={`${site.name} home`}>
-          <BrandLogo />
-          <span className="flex flex-col leading-none">
-            <span className="text-[15px] font-bold tracking-wide">AIDA</span>
-            <span className="text-[10px] font-medium uppercase tracking-[0.3em] text-ink-dim">
-              Logistics
-            </span>
-          </span>
+        <Link href="/" className="flex items-center" aria-label={`${site.name} home`}>
+          <BrandLogo className="h-8 w-auto" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
