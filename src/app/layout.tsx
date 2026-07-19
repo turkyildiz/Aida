@@ -30,11 +30,13 @@ export const metadata: Metadata = {
     siteName: site.name,
     locale: "en_US",
     type: "website",
+    images: [{ url: "/brand/aida-og.png", width: 1200, height: 630, alt: site.name }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: site.name,
     description: site.description,
+    images: ["/brand/aida-og.png"],
   },
   robots: { index: true, follow: true },
 };
